@@ -26,9 +26,15 @@
   background-color: var(--medium);
 }
 
+.bg-white {
+  background-color: var(--white);
+}
+
 .max-width-wrapper {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 /* font-size */
@@ -95,52 +101,59 @@
   margin-bottom: 128px;
 }
 .pt-1 {
-  margin-top: 8px;
+  padding-top: 8px;
 }
 .pt-2 {
-  margin-top: 16px;
+  padding-top: 16px;
 }
 .pt-3 {
-  margin-top: 24px;
+  padding-top: 24px;
 }
 .pt-4 {
-  margin-top: 32px;
+  padding-top: 32px;
 }
 .pt-5 {
-  margin-top: 48px;
+  padding-top: 48px;
 }
 .pt-6 {
-  margin-top: 64px;
+  padding-top: 64px;
 }
 .pt-7 {
-  margin-top: 96px;
+  padding-top: 96px;
 }
 .pt-8 {
-  margin-top: 128px;
+  padding-top: 128px;
 }
 .pb-1 {
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .pb-2 {
-  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 .pb-3 {
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .pb-4 {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .pb-5 {
-  margin-bottom: 48px;
+  padding-bottom: 48px;
 }
 .pb-6 {
-  margin-bottom: 64px;
+  padding-bottom: 64px;
 }
 .pb-7 {
-  margin-bottom: 96px;
+  padding-bottom: 96px;
 }
 .pb-8 {
-  margin-bottom: 128px;
+  padding-bottom: 128px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+.ml-24 {
+  margin-left: 24px;
 }
 
 .fw-800 {
@@ -149,4 +162,19 @@
 
 main {
   border-top: 8px solid var(--light);
+}
+
+.indented-heading {
+  display: inline-block;
+  background-color: var(--secondary-light);
+  padding: 16px 0;
+  padding-left: 28px;
+  padding-right: 32px;
+  margin-left: -8px;
+  border-bottom: 8px solid var(--secondary-dark);
+}
+
+.card {
+  margin-left: -24px;
+  border-bottom: 8px solid var(--light);
 }
