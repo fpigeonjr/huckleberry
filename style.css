@@ -18,6 +18,11 @@
   --white: hsl(0deg, 0%, 100%);
 }
 
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
 .text-primary {
   color: var(--primary);
 }
@@ -49,6 +54,9 @@
 }
 .fz-2 {
   font-size: 2rem;
+}
+.lh-1-2 {
+  line-height: 1.2;
 }
 
 /* margin and padding */
@@ -160,12 +168,16 @@
   font-weight: 800;
 }
 
-main {
-  border-top: 8px solid var(--light);
+header {
+  border-bottom: 8px solid var(--light);
 }
 
+.intro-chunk {
+  max-width: 415px;
+}
 .indented-heading {
   display: inline-block;
+  line-height: 1.2;
   background-color: var(--secondary-light);
   padding: 16px 0;
   padding-left: 28px;
